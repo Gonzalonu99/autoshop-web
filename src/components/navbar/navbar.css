@@ -1,0 +1,43 @@
+.bg-myColor{
+    background-color: #d3e5f1;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-brand{
+    display: inline-flex;
+    height: 60px;
+    padding: 8px;
+}
+.navbar-logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    z-index: -100;
+}
+.navbar-nav{
+    padding: 30px;
+    font-size: 19px;
+}
+.nav-link:hover{
+    text-decoration: 3px underline #279be9;
+}
+.navbar-toggler{
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 23px;
+    color: #279be9;
+}
+@media(min-width: 768px){
+    .nav-link{
+        margin-left: 45px;
+        padding-top: 5px;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+        margin-right: 150px;
+    }
+}
