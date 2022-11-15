@@ -9,4 +9,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.leaflet-container{
+  width: 320px;
+  height: 300px;
+  position: relative;
+  margin-top: 60px;
+  border: 2px inset #279be9;
+}
+@media(min-width:992px){
+  .leaflet-container{
+    width: 500px;
+  }
+}
+@media(min-width:1024px){
+  .leaflet-container{
+    width: 600px;
+  }
+}
 
