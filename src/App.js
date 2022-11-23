@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Descargar from "./components/descargar";
+import Footer from "./components/footer";
 import Form from "./components/formulario";
 import Home from "./components/home";
 import Integrar from "./components/integrar";
@@ -16,6 +17,7 @@ function App() {
       <Descargar />
       <Sucursales />
       <Form />
+      <Footer/>
       <ScrollUp />
     </Fragment>
   );
